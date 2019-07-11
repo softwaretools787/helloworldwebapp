@@ -1,13 +1,12 @@
-package com.softwaretools787.helloworld;
+package com.javacodegeeks.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloWorldAwsApplication {
+public class HelloWorldApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloWorldAwsApplication.class, args);
+		SpringApplication.run(HelloWorldApplication.class, args);
 	}
-
 }
